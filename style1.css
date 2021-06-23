@@ -76,7 +76,7 @@
   color: crimson;
   font-weight: 500;
 }
-/*.home .home-content a {
+.home .home-content a {
   display: inline-block;
   background: crimson;
   color: white;
@@ -90,7 +90,7 @@
 .home .home-content a:hover {
   color: crimson;
   background: none;
-}*/
+}
 /*for all */
 section {
   padding: 100px 0;
@@ -239,12 +239,12 @@ section .title::after {
 .contact .contact-content a {
   display: inline-block;
 
-  color: white;
+  color: black;
   font-size: 25px;
   transition: all 0.3s ease;
   margin-right: 10px;
 }
-.contact .contact-content a:hover {
+.contact .contact-content div:hover {
   color: orangered;
   background: none;
 }
@@ -297,10 +297,10 @@ section .title::after {
   .home .home-content .text-3 {
     font-size: 15px;
   }
-  /* .home .home-content a {
+  .home .home-content a {
     font-size: 23px;
     padding: 9px 28px;
-  }*/
+  }
   /*about section*/
   .about .title {
     font-size: 35px;
